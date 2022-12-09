@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mail Validation</title>
+        <link rel="stylesheet" type="text/css" href="task.css">
+        <script type="text/javascript" src="task.js"></script>
+    </head>
+    <body>
+        <h1><u>Leonia Resorts</u></h1>
+        <div class="column" id="text">
+            <div class="row">
+            <h3>Leonia Holistic Destination</h3>
+            <p>
+                Travellers' Choice
+                Leonia Holistic Destination is a unique destination spread in sprawling greenery and natural rock formations that portray a warm invitation to guests from across the world to dwell in the ambience of luxury, warm hospitality and richness of integrated services offered by its villas and hotels. 
+                Celestia Suites - 70 luxuriously designed suites to cater to your private or business moments.Lagoon Bay - 18 villas set in picture-perfect environment with dramatic semi private lagoon and private patio await to pamper you.Leo Biz Hotel - 266 rooms and suites for business and family travellers.
+                LICEC hotel - 100 convention rooms hotel for meetings, weddings and events.<br>
+                <strong>Hotel details</strong><br>
+                Set on sprawling landscaped gardens, this upmarket spa resort with 4 hotels is 30 km from Hyderabad and 60 km from Rajiv Gandhi International Airport.
+                Relaxed rooms have flat-screen TVs and free Wi-Fi. Elegant suites have living areas, while rustic-chic villas provide private patios. Room service is available 24/7.
+                Freebies include a breakfast buffet, the use of a gym, and 1-time access to a mini water park. There are 5 eateries and 2 bars, along with 2 nightclubs and 3 theatres. The spa offers a beauty salon, and an outdoor pool surrounded by bamboo, along with yoga, meditation and Ayurvedic treatments.
+            </p>
+        </div>
+        </div>
+
+        <div class="column" id="img">
+            <div class="row">
+            <h3>Top 3 Facilities</h3>
+            <a href="http://www.leonia.in/Hotels/HotelsAndVillas.aspx" target="_blank">
+                <img id="img1" src="hotel.jpg" alt="Hotels" title="Hotels & Villas">
+            </a>
+            <a href="http://www.leonia.in/Conventions/Index.aspx" target="_blank">
+                <img id="img2" src="Conventions.jpg" alt="Conventions" title="Conventions & Conferences">
+            </a>
+            <a href="http://www.leonia.in/weddings/Index.aspx" target="_blank">
+                <img id="img3" src="wedding.jpg" alt="Wedding" title="Weddings">
+            </a>  
+            </div>
+        </div>
+            <form name="myForm" action="result.html" method="GET" onsubmit="return  ValidatefNames() || ValidatelNames() || Validatebtn() || ValidateEmail()" method="post">
+                <fieldset style="background-color:peachpuff ;">
+                    <legend style="text-align:center;border: 2px solid;padding:0px;"><mark>Register here for Booking</mark></legend>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="First Name"><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" name="Last Name"><br>
+                    Gender<br>
+                    <input type="radio" id="m" name="Gender" value="Male">
+                    <label for="m">Male</label><br>
+                    <input type="radio" id="f" name="Gender" value="Female">
+                    <label for="f">Female</label><br>
+                    <label for="mail">Email</label><br>
+                    <input type="text" id="mail" name="Email" size="30"><br>
+                    <input type="submit" class="button" value="Submit">
+                </fieldset>
+            </form>
+    </body>
+</html>
