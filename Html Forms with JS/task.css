@@ -34,16 +34,19 @@ h1{
 }
 #img{
 	font-size: 17px;
-	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: rgb(74, 233, 233);
 	border: 2px solid;
 	width: 49%;
 	margin: 5px;
 }
 #img1,#img2,#img3{
-	margin: 4px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	border: 2px solid #ccc;
-	float: center;
 	width: 500px;
 	height:113px;
 }
